@@ -1,35 +1,54 @@
-# Landing Page Jekyll theme
+# jekyll-uno
 
-Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
+Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
-## How to use
- - Place a image in `/img/services/`
- - Create posts to display your services. Use the follow as an example:
+> :warning:
+  This theme requires ruby and rubygems installed
 
-```txt
+### Features
+
+* Clean layout
+* Resposive layout
+* Pagination
+* Syntax highlighting
+* Social links
+* Tags listing page
+* Categories listing page
+* Google Analytics integration
+* Disqus integration
+
 ---
-layout: default
-img: ipad.png
-category: Services
-title: The service title
----
-The description of this service
+
+### Install and Test
+
+1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
+2. Enter the folder: `cd jekyll-uno/`
+3. If you don't have bundler installed: `gem install bundler`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `bundle exec jekyll serve --watch`
+
+Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
+
+If you would like to run without using the `github-pages` gem, update your Gemfile to the following:
+
 ```
+source 'https://rubygems.org'
+gem 'jekyll-paginate'
+gem 'jekyll-watch'
+gem 'kramdown'
+gem 'kramdown-parser-gfm'
+```
+---
 
-## Demo
-View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
+### Demo and Download
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
+[Demo](http://joshgerdes.com/jekyll-uno/)
+[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
 
-===
+![jekyll-uno - free Jekyll theme](/screenshot.png)
 
-For more Jekyll details, read [documentation](http://jekyllrb.com/).
-This Jekyll theme used [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme/) as reference.
+---
 
-## License
-The contents of this repository are licensed under the [Apache
-2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+### Copyright and license
 
-## Version
-1.0.1
+It is under [the MIT license](/LICENSE).
