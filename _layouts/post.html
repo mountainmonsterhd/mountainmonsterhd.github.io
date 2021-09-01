@@ -1,20 +1,27 @@
 ---
 layout: default
+title: Home
 ---
-<article class="post-container post-container--single">
-  <header class="post-header">
-    <div class="post-meta">
-      <time datetime="{{ page.date | date: "%Y-%m-%d %H:%M" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time>
-      {% if page.tags.size > 0 %}
-      &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}</span>
-      {% endif %}
-    </div>
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
 
-  <section class="post">
-    {{ content }}
-  </section>
-  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
-</article>
-{% if page.comments != false %}{% include disqus.html %}{% endif %}
+<div class='xs-12 topBar hidden'>
+  <p>{{ page.title }}</p>
+</div>
+
+<div class="xs-12 imgBack textCenter vertCenter banner" style='background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) ), url({{ site.url }}/assets/img/{{ page.thumbnail }})'>
+  <div>
+    <a class='caps post-title' href='{{ post.url }}'>{{ page.title }}</a>
+    <p class='meta'>{{ page.date | date_to_long_string }} / by {{ page.author }}</p>
+  </div>
+</div>
+
+<div class='divider xs-12 topBarTrigger'></div>
+
+<div class='post-wrap'>
+  <h1>{{ page.title }}</h1>
+  <p class='meta'>
+    {{ page.author }} // {{ page.date | date_to_long_string }}
+  </p>
+
+  {{ content }}
+
+</div>
