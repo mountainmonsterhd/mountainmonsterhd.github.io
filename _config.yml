@@ -14,7 +14,7 @@ description: App marketing template for Jekyll.
 author:
   name:姜流
   email:jiangzheyan0@126.com
-  twitter: # twitter username without the @ symbol
+  twitter: none  # twitter username without the @ symbol
 social:
   name: 姜流
   links:
