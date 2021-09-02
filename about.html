@@ -1,37 +1,29 @@
 ---
-layout: default
 title: About
+description: We've built an amazing team of developers, marketers, designers and sales people.
+image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 ---
 
-<!-- I prefer to write in Jade. If you don't, feel free to just write in Vanilla HTML and remove the following liquid tag ... -->
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable">Our Story</h1>
+			<p class="subtext editable">We have an extremely talented team whose sole goal is to bring you closer to the people around you.</p>
+		</div>
+	</div>
+</section>
 
-
-<!-- ... and write that Vanilla HTML right here. -->
-
-
-<div class='xs-12 topBar hidden'>
-  <p>{{ page.title }}</p>
-</div>
-
-<div class="xs-12 imgBack textCenter vertCenter banner" style='background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) ), url({{ site.url }}/assets/img/city2.jpg)'></div>
-
-<div class='divider xs-12 topBarTrigger'></div>
-
-<div class='post-wrap flexbox-contain column'>
-
-  <!-- Tell people something unique about you... -->
-  <h1 class='textCenter'>About</h1>
-  <p class='big textCenter'><b class='accent'>Getting Groovy with Sass & Jade</b></p>
-
-  <p>Nina Petropoulos is a self-taught web designer and developer who's trying to get better by making themes like this one. An English major by day and a music producer by night, Nina believes in artistic expression and curiosity. Use this page to talk about yourself and blog.</p>
-
-  <!-- List you associated sites and social medias... -->
-  <div class='flexbox-contain this justify-around icon-container'>
-    <img class='social-media' src='{{ site.url }}/assets/img/icons/twitter.svg'>
-    <img class='social-media' src='{{ site.url }}/assets/img/icons/behance.svg'>
-    <img class='social-media' src='{{ site.url }}/assets/img/icons/facebook.svg'>
-    <img class='social-media' src='{{ site.url }}/assets/img/icons/Github.svg'>
-    <img class='social-media' src='{{ site.url }}/assets/img/icons/Google-Plus.svg'>
-    <img class='social-media' src='{{ site.url }}/assets/img/icons/youtube.svg'>
-  </div>
-</div>
+<section class="pad">
+	<div class="container">
+		<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Manage Staff Members</a></p>
+		<ul class="staff">
+			{% for person in site.staff_members %}
+				<li>
+					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
+					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
+					<div class="position">{{ person.position }}</div>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
