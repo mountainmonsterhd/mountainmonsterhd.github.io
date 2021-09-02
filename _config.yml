@@ -12,9 +12,9 @@ disqus_shortname:
 logo: /siteicon.png
 description: App marketing template for Jekyll.
 author:
-  name:姜流
-  email:jiangzheyan0@126.com
-  twitter: none  # twitter username without the @ symbol
+  name:
+  email:
+  twitter:# twitter username without the @ symbol
 social:
   name: 姜流
   links:
