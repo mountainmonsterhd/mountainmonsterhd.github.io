@@ -12,13 +12,13 @@ disqus_shortname:
 logo: /siteicon.png
 description: App marketing template for Jekyll.
 author:
-  name:
-  email:
+  name:姜流
+  email:jiangzheyan0@126.com
   twitter: # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: 姜流
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://github.com/mountainmonsterhd
 
 # -----
 # Build
