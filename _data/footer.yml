@@ -11,16 +11,16 @@ right_links:
     new_window: true
     social_icon: Weibo
   - name:
-    link: https://twitter.com/cloudcannon
-    social_icon: Twitter
+    link: https://user.qzone.qq.com/993100292
+    social_icon: QQZone
     new_window: true
   - name:
-    link: https://youtube.com/c/cloudcannon
-    social_icon: YouTube
+    link: https://i.youku.com/shanguaijieshuo
+    social_icon: YouKu
     new_window: true
   - name:
-    link: https://instagram.com/
-    social_icon: Instagram
+    link: https://space.bilibili.com/32909894
+    social_icon: Bilibili
     new_window: true
   - name:
     link: /feed.xml
