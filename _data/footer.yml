@@ -23,6 +23,6 @@ right_links:
     social_icon: Bilibili
     new_window: true
   - name:
-    link: /feed.xml
-    social_icon: RSS
+    link: https://steamcommunity.com/profiles/76561198310837599/
+    social_icon: Steam
     new_window: true
