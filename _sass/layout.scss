@@ -1,8 +1,14 @@
 .MainTitle, .SubText {
     font-family: "楷体";
 }
-.SubTitle, .IntroText {
+.SubTitle{
     font-family: "启体";
+	font-size: 140px;
+}
+
+.IntroText {
+    font-family: "启体";
+	font-size: 40px;
 }
 
 .container, .text-container {
