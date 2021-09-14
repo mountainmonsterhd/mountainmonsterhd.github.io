@@ -3,11 +3,14 @@ title: Detectron2 使用踩坑
 date: 2021-09-14
 description: 关于我使用Detectron2目标检测框架环境配置踩坑过程
 categories:
-  - friends
-image: ./2021_9_14/main.jpg
+  - Detectron2
+  - 环境配置
+  - 问题解决
+image: images/2021_9_14/main.jpg
 author_staff_member: 姜流
 ---
-Friendship is a relationship of mutual affection between people. Friendship is a stronger form of interpersonal bond than an association. Friendship has been studied in academic fields such as sociology, social psychology, anthropology, and philosophy. Various academic theories of friendship have been proposed, including social exchange theory, equity theory, relational dialectics, and attachment styles. A World Happiness Database study found that people with close friendships are happier.
+
+配置了两周的环境，终于在linux服务器上配置好了环境，成功能够运行基于Detectron2目标检测框架，本文章记录介绍我配置环境遇到并最终解决的问题。
 
 ![Checkmate](https://source.unsplash.com/random/1500x1000)
 
