@@ -1,11 +1,11 @@
 ---
-title: What is a friend?
-date: 2016-07-20
-description: Exploring the mechanics of friendship
+title: Detectron2 使用踩坑
+date: 2021-09-14
+description: 关于我使用Detectron2目标检测框架环境配置踩坑过程
 categories:
   - friends
-image: https://source.unsplash.com/collection/375719/2000x1322?a=.png
-author_staff_member: anna
+image: ./2021_9_14/main.jpg
+author_staff_member: 姜流
 ---
 Friendship is a relationship of mutual affection between people. Friendship is a stronger form of interpersonal bond than an association. Friendship has been studied in academic fields such as sociology, social psychology, anthropology, and philosophy. Various academic theories of friendship have been proposed, including social exchange theory, equity theory, relational dialectics, and attachment styles. A World Happiness Database study found that people with close friendships are happier.
 
