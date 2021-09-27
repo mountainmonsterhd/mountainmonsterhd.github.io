@@ -16,9 +16,9 @@ author_staff_member: 姜流
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在安装detectron2框架之前，我们需要基本的python环境以及torch环境。
 
-本文因为需要使用fvcore，fvcore只支持python3.7以上，所以本文使用的python版本是3.7，而detectron2框架使用也尽量用python3.6以上。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本文因为需要使用fvcore，fvcore只支持python3.7以上，所以本文使用的python版本是3.7，而detectron2框架使用也尽量用python3.6以上。
 
-torch版本不能太高也不能太低，也需要根据GPU版本，cuda和cudnn版本进行选择，本文使用的cuda是10.0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;torch版本不能太高也不能太低，也需要根据GPU版本，cuda和cudnn版本进行选择，本文使用的cuda是10.0
 
 查看cuda版本可以使用指令：
 
