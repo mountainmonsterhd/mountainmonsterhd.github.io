@@ -20,7 +20,7 @@ torch版本不能太高也不能太低，也需要根据GPU版本，cuda和cudnn
 查看cuda版本可以使用指令：
 nvcc -V
 根据cuda版本使用对应的cudnn版本。
-![cuda_cudnn0](images/2021_9_14/cuda_cudnn0.png)
-![cuda_cudnn1](images/2021_9_14/cuda_cudnn1.png)
+![cuda_cudnn0](https://mountainmonsterhd.github.io/images/2021_9_14/cuda_cudnn0.png)
+![cuda_cudnn1](https://mountainmonsterhd.github.io/images/2021_9_14/cuda_cudnn1.png)
 
 ![Raspberries](https://source.unsplash.com/random/1500x1001)
