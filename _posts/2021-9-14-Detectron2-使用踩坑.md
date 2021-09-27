@@ -10,11 +10,11 @@ image: images/2021_9_14/main.jpg
 author_staff_member: 姜流
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;配置了两周的环境，终于在linux服务器上配置好了环境，成功能够运行基于Detectron2目标检测框架，本文章记录介绍我配置环境遇到并最终解决的问题。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;配置了两周的环境，终于在linux服务器上配置好了环境，成功能够运行基于Detectron2目标检测框架，本文章记录介绍我配置环境遇到并最终解决的问题。
 
 ## 基本依赖环境
 
-&nbsp;&nbsp;&nbsp;&nbsp;在安装detectron2框架之前，我们需要基本的python环境以及torch环境。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在安装detectron2框架之前，我们需要基本的python环境以及torch环境。
 
 本文因为需要使用fvcore，fvcore只支持python3.7以上，所以本文使用的python版本是3.7，而detectron2框架使用也尽量用python3.6以上。
 
