@@ -23,7 +23,7 @@ author_staff_member: 姜流
 
 官方安装环境和我这篇博客内容差不多：
 
-<a href="https://mountainmonsterhd.gitee.io/blog.io/mmcv/mmdetection/环境配置/目标检测/神经网络/2021/10/26/Linux安装mmcv和mmdetection踩坑/">Linux安装mmcv和mmdetection踩坑</a>
+<a href="https://mountainmonsterhd.github.io/mmcv/mmdetection/环境配置/目标检测/神经网络/2021/10/26/Linux安装mmcv和mmdetection踩坑/">Linux安装mmcv和mmdetection踩坑</a>
 
 实际上，我们安装使用SwinTransformer的时候可以参考一部分官方文件。以下是安装过程：
 
@@ -63,9 +63,9 @@ author_staff_member: 姜流
 
 首先，我们需要安装CUDA和PyTorch。这里的版本可以参照我的另外两篇博客：
 
-<a href="https://mountainmonsterhd.gitee.io/blog.io/linux/cuda/环境配置/2021/10/22/Linux系统环境下安装cuda/">Linux系统环境下安装cuda</a>
+<a href="https://mountainmonsterhd.github.io/linux/cuda/环境配置/2021/10/22/Linux系统环境下安装cuda/">Linux系统环境下安装cuda</a>
 
-<a href="https://mountainmonsterhd.gitee.io/blog.io/apex/环境配置/目标检测/神经网络/2021/10/21/安装apex库/">Python安装apex库</a>
+<a href="https://mountainmonsterhd.github.io/apex/环境配置/目标检测/神经网络/2021/10/21/安装apex库/">Python安装apex库</a>
 
 在进行测试时，同样需要安装apex和timm库，而timm库使用
 
@@ -85,7 +85,7 @@ author_staff_member: 姜流
 
 例如：
 
-![PyTorch](https://mountainmonsterhd.gitee.io/blog.io/images/2021_11_1/P1.png)
+![PyTorch](https://mountainmonsterhd.github.io/images/2021_11_1/P1.png)
 
 输入安装：
 
@@ -99,7 +99,7 @@ author_staff_member: 姜流
 
 2.mmcv-full安装
 
-这里和《<a href="https://mountainmonsterhd.gitee.io/blog.io/mmcv/mmdetection/环境配置/目标检测/神经网络/2021/10/26/Linux安装mmcv和mmdetection踩坑/">Linux安装mmcv和mmdetection踩坑</a>》安装过程是一样的
+这里和《<a href="https://mountainmonsterhd.github.io/mmcv/mmdetection/环境配置/目标检测/神经网络/2021/10/26/Linux安装mmcv和mmdetection踩坑/">Linux安装mmcv和mmdetection踩坑</a>》安装过程是一样的
 
 3.MMDetection安装
 
@@ -127,7 +127,7 @@ author_staff_member: 姜流
 
 下面是带有mask的数据集训练出来后的模型结果：
 
-![Data](https://mountainmonsterhd.gitee.io/blog.io/images/2021_11_1/P2.png)
+![Data](https://mountainmonsterhd.github.io/images/2021_11_1/P2.png)
 
 ---
 
