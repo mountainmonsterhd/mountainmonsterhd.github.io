@@ -27,7 +27,7 @@ author_staff_member: 姜流
 
 以下是驱动和```cuda```对应的版本信息：
 
-![Cuda_version](https://mountainmonsterhd.gitee.io/blog.io/images/2021_10_22/P1.png)
+![Cuda_version](https://mountainmonsterhd.github.io/images/2021_10_22/P1.png)
 
 本文使用的是```cuda10.1``` 和 显卡驱动```470.74（GTX3090）```
 
