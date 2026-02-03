@@ -16,6 +16,7 @@ layout: default
 		<p class="change-category">你正在浏览 <strong>{{ page.title }}</strong> 类别，你可以 <a href="{{ site.baseurl }}/blog/">点这里查看所有类别</a> 。</p>
 
 		<ul class="blog-posts">
+			{% assign category_posts = site.categories[page.title] %}
 			{% include list-posts.html posts=page.posts %}
 		</ul>
 	</div>
