@@ -31,9 +31,9 @@ nvcc -V
 
 根据cuda版本使用对应的cudnn版本：
 
-![cuda_cudnn0](https://mountainmonsterhd.gitee.io/blog.io/images/2021_9_14/cuda_cudnn0.png)
+![cuda_cudnn0](https://mountainmonsterhd.github.io/images/2021_9_14/cuda_cudnn0.png)
 
-![cuda_cudnn1](https://mountainmonsterhd.gitee.io/blog.io/images/2021_9_14/cuda_cudnn1.png)
+![cuda_cudnn1](https://mountainmonsterhd.github.io/images/2021_9_14/cuda_cudnn1.png)
 
 根据cuda版本选择安装合适的pytorch版本：
 
